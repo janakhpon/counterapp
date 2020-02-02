@@ -6,15 +6,15 @@ import { Provider } from 'react-redux';
 import reducerProcess from './reducers';
 
 const composeEnchancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
-const store= createStore(
+const store = createStore(
     reducerProcess
     , composeEnchancers(applyMiddleware())
-    );
+);
 
 ReactDOM.render(
     <Provider store={store}>
-    <App/>
+        <App />
     </Provider>
-,
-document.querySelector('#root')
+    ,
+    document.querySelector('#root')
 )
