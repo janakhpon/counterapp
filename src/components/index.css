@@ -1,5 +1,36 @@
-body,html {
+body,
+html {
     overflow: hidden;
-    background-color: rgba(26, 22, 22, 0.938);
+    background-color: rgba(23, 27, 32, 0.267);
     color: white;
+    animation: one 10s ease-in-out infinite alternate;
+}
+
+
+@keyframes one {
+
+    0%,
+    100% {
+        background: linear-gradient(to left, rgba(72, 23, 128, 1) 0%, rgba(61, 50, 155, 1) 27%, rgba(44, 94, 199, 1) 70%, rgba(32, 124, 229, 1) 100%);
+    }
+
+    10%,
+    90% {
+        background: linear-gradient(217deg, rgb(30, 23, 128) 0%, rgba(61, 50, 155, 1) 27%, rgb(199, 44, 186) 70%, rgba(32, 124, 229, 1) 100%);
+    }
+
+    20%,
+    80% {
+        background: linear-gradient(127deg, rgb(32, 2, 63) 0%, rgba(61, 50, 155, 1) 27%, rgb(21, 74, 189) 70%, rgba(32, 124, 229, 1) 100%);
+    }
+
+    40%,
+    60% {
+        background: linear-gradient(336deg, rgb(13, 3, 24) 0%, rgba(61, 50, 155, 1) 27%, rgb(22, 52, 117) 70%, rgba(32, 124, 229, 1) 100%);
+    }
+
+
+    50% {
+        background: linear-gradient(45deg, rgb(161, 13, 75) 0%, rgba(61, 50, 155, 1) 27%, rgb(42, 117, 117) 70%, rgba(32, 124, 229, 1) 100%);
+    }
 }

@@ -13,7 +13,7 @@ class App extends Component {
                         <button className="ui positive button" onClick={() => this.props.positive()} >positive + </button>
                         <button className="ui negative button" onClick={() => this.props.negative()} >negative - </button>
                         <button className="ui blue button" >{this.props.value}</button>
-                        <button className="ui black button" onClick={() => this.props.reset()} > reset value * </button>
+                        <button className="ui black button" onClick={() => this.props.reset()} > reset value  </button>
                     </div>
                 </div>
             </div>
