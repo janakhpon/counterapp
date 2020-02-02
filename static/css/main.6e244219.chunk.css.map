@@ -1,0 +1,1 @@
+{"version":3,"sources":["index.css"],"names":[],"mappings":"AAAA,UACI,eAAgB,CAChB,oCAAyC,CACzC,UACJ","file":"main.6e244219.chunk.css","sourcesContent":["body,html {\n    overflow: hidden;\n    background-color: rgba(26, 22, 22, 0.938);\n    color: white;\n}"]}
