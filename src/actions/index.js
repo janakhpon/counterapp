@@ -1,19 +1,19 @@
 import * as types from '../constants';
 
 export const positive = () => {
-    return{
+    return {
         type: types.POSITIVE
     }
 }
 
 export const negative = () => {
-    return{
+    return {
         type: types.NEGATIVE
     }
 }
 
 export const reset = () => {
-    return{
+    return {
         type: types.RESET
     }
 }
