@@ -4,14 +4,10 @@ import { positive, negative, reset } from '../actions';
 import './index.css'
 
 class App extends Component {
-
-
-
     render() {
-
         console.log(this.props.value)
         return (
-            <div className="ui grid container" style={{ margin: '10%', textAlign:'center'}}>
+            <div className="ui grid container" style={{ margin: '10%', textAlign: 'center' }}>
                 <div className="ui twelve wide column centered">
                     <div className="row">
                         <button className="ui positive button" onClick={() => this.props.positive()} >positive + </button>
@@ -21,13 +17,8 @@ class App extends Component {
                     </div>
                 </div>
             </div>
-
-
         );
-
     }
-
-
 }
 
 function mapStateToProps(state) {
@@ -35,7 +26,5 @@ function mapStateToProps(state) {
         value: state
     };
 }
-
-
 
 export default connect(mapStateToProps, { positive, negative, reset })(App);
