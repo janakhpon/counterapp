@@ -1,0 +1,5 @@
+body,html {
+    overflow: hidden;
+    background-color: rgba(26, 22, 22, 0.938);
+    color: white;
+}
